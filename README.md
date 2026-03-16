@@ -43,4 +43,5 @@ docker compose up -d
 ### Admin
 https://examlpe.com/manage
 
-and bobs your fanny 🤘🤓🤘
+and bobs your fanny 
+### 🤘🤓🤘
