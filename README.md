@@ -8,6 +8,8 @@ it runs one user whit creds stored in clear text in the env var
 mkdir urlshort
 cd urlshort
 git clone https://github.com/expergefacio/urlshort.git .
+rm LICENSE
+rm README.md
 ````
 or in your preferred way
 
