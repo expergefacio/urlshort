@@ -7,7 +7,7 @@ ie. `example.com/A` and `exmaple.com/_z`
 also supports `example.com/custom`
 
 # howto
-## Clone the repo
+### Clone the repo
 ````
 mkdir urlshort
 cd urlshort
@@ -17,7 +17,7 @@ rm README.md
 ````
 or in your preferred way
 
-## change the env vars in docker-compose.yml
+### change the env vars in docker-compose.yml
 ````
 nano docker-compose.yml
 #or
@@ -25,7 +25,7 @@ micro docker-compose.yml
 #or
 vim docker-compose.yml
 ````
-## then
+### then
 ````
     environment:
       #change theese
@@ -35,7 +35,7 @@ vim docker-compose.yml
       PUBLIC_BASE_URL: "https://examlpe.com/"
 ````
 
-## then your normal
+### then your normal
 ````
 docker compose up -d
 ````
