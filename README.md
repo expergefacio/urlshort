@@ -40,7 +40,7 @@ vim docker-compose.yml
 docker compose up -d
 ````
 
-## Admin
+### Admin
 https://examlpe.com/manage
 
 and bobs your fanny 🤘🤓🤘
