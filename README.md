@@ -1,13 +1,10 @@
 # urlshort
-Singlefile urlshortener for Flask running in docker
-
+Singlefile urlshortener for Flask running in docker 
 it runs one user whit creds stored in clear text in the env var
 
-it runs auto inc on base64-url, so you get about 4163 on the first one and two bytes
-
-ie. example.com/A and exmaple.com/_z
-
-also supports example.com/custom
+it runs auto inc on base64-url, so you get about 4163 on the first one and two bytes 
+ie. `example.com/A` and `exmaple.com/_z` 
+also supports `example.com/custom`
 
 # howto
 ## Clone the repo
