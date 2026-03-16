@@ -1,0 +1,17 @@
+services:
+  url-shortener:
+    build: .
+    container_name: url-shortener
+    ports:
+      - "7272:8000"
+    environment:
+      #change theese
+      SECRET_KEY: "replace-this-with-a-long-random-string"
+      ADMIN_USERNAME: "admin"
+      ADMIN_PASSWORD: "password"
+      PUBLIC_BASE_URL: "https://examlpe.com"
+
+      DATABASE_PATH: "/data/shortener.db"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
