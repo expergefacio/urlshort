@@ -2,7 +2,8 @@
 Singlefile urlshortener for Flask running in docker
 it runs one user whit creds stored in clear text in the env var
 
-````clone the repo
+````
+clone the repo
 mkdir urlshort
 cd urlshort
 git clone https://github.com/expergefacio/urlshort.git .
@@ -11,14 +12,16 @@ git clone https://github.com/expergefacio/urlshort.git .
 or in your preferred way
 then change the env vars in docker-compose.yml
 
-````nano docker-compose.yml
-or
+````
+nano docker-compose.yml
+#or
 micro docker-compose.yml
-or
+#or
 vim docker-compose.yml
 ````
 
-````    environment:
+````
+    environment:
       #change theese
       SECRET_KEY: "replace-this-with-a-long-random-string"
       ADMIN_USERNAME: "admin"
@@ -27,7 +30,8 @@ vim docker-compose.yml
 ````
 
 then your normal
-````docker compose up -d
+````
+docker compose up -d
 ````
 
-and bobs your fanny...
+then bobs your fanny...
